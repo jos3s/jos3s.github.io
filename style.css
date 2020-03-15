@@ -13,13 +13,13 @@ body{
     position: relative;
 }
 #logo{
-    margin:5px 0 0 135px;
-    height: 50px;
+    margin:15px 0 0 135px;
+
 }
 .menu{
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 75px;
     height: 100%;
     color: #425564;
     text-decoration: none;
@@ -64,13 +64,20 @@ body{
     background-color: #003d52;
     padding: 100px;
     color: white;
-    background-image: url("imagens/bg_detalhe.png");
+    background-image: url("img/bg_detalhe.png");
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 .sobre h2{
     text-transform: uppercase;
     font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.sobre h3{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
     font-weight: normal;
 }
 .sobre p{
@@ -79,9 +86,19 @@ body{
 }
 
 #formacao{
-    margin: 50px 0; 
+    margin: 50px 0;
+    color: #143f52;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold; 
 }
-#formacao{
+#formacao h2{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.curso{
     color: #143f52;
     text-align: center;
     text-transform: uppercase;
@@ -89,14 +106,58 @@ body{
     font-style: normal;
     font-weight: bold;
 }
-#curso{
-    color: #143f52;
+.curso-data{
+    color: #252525;
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.curso-info{
+    color: #0b171f;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
     font-style: normal;
+    font-weight: normal;
+}
+#atv-header{
+    background-color: #003d52;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.atv{
+    margin-bottom: 10px;
+    color: white;
+}
+.atv-card{
+    background-color: #003d52;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom:  20px;
+}
+.atv-titulo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
     font-weight: bold;
 }
+.atv-xtr{
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.atv-txt{
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
 footer{
     clear:both;
     background-color: #0b171f;
@@ -104,6 +165,7 @@ footer{
     letter-spacing: 5px;
     text-align: center;
     padding: 15px;
+    margin-top: 20px;
 }
 footer a{
     color: #425564;
