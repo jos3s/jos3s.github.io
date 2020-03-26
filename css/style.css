@@ -105,12 +105,16 @@ li{
 }
 
 /* !main */
+.hidden{
+    display:none;
+}
 .siteMain{
     width: 65%;
     margin-left: 35%;
     padding: 100px 54px 72px;
     box-sizing: border-box;
 }
+
 .siteMainDestaque{
     border-radius: .35em;
     background-color: #003d52;
@@ -124,6 +128,7 @@ li{
     margin-bottom: 0;
     color: white;
 }
+
 .siteMainEdu{
     border-radius: .35em;
     border: 2px solid #efefef;
@@ -167,6 +172,17 @@ li{
     padding: .4em;
     text-align: right;
     margin: 13px;
+}
+
+.siteMainHabilidade{
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logoLinguagem{
+    font-size: 50px;
+    color: #003d52;
 }
 
 /* !Footer */
@@ -216,4 +232,8 @@ li{
 .col2-3{
     display: inline-block;
     width: 66%;
+}
+.col4{
+    width:18%;
+    margin-left: 1%;
 }
