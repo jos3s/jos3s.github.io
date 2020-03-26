@@ -94,6 +94,10 @@ li{
     display: inline-block;
     font-size: 2em;
 }
+.list{
+    margin-left: 10px;
+    list-style: circle;
+}
 
 /* !main */
 .siteMain{
@@ -138,6 +142,28 @@ li{
     color: #003d52;
 }
 
+.siteMainExp{
+    background-color: #055E44;
+    color: white;
+    border-radius: .35em;
+    padding: 0.55em 0.95em;
+    margin-bottom: 1em;
+}
+.expEmpresa{
+    color: white;
+    font-weight: bold;
+    padding: .2em;
+    margin: .5em;
+    text-align: right;
+}
+.expEmpresaAno{
+    color: white;
+    font-weight: bold;
+    padding: .4em;
+    text-align: right;
+    margin: 13px;
+}
+
 /* !Footer */
 .siteFooter{
     position: fixed;
@@ -175,4 +201,13 @@ li{
 }
 .col2:first-child{
     margin-right: 2%;
+}
+.col1-3{
+    width: 30%;
+    float: left;
+    margin-right: 1%;
+}
+.col2-3{
+    display: inline-block;
+    width: 66%;
 }
