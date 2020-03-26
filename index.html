@@ -1,10 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>José Ulisses</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="author" content="José Ulisses">
-        <link rel="stylesheet" href="style.css">
+        <title>José Ulisses</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ff7538096c.js" crossorigin="anonymous"></script>
         <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -14,79 +17,76 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
         <meta name="theme-color" content="#000000">
-
     </head>
     <body>
-        <div id="main">
-            <header class="banner">
-                <a href="https://github.com/jos3s"><img id="logo" src="img/GitHub-Mark-Light-32px.png"></a>
-                <nav class="menu">
-                    <h2>José Ulisses</h2>
-                </nav>
-            </header>
-            <article class="portifolio">
-                <div class="conteudoT">
-                    <h1>Nova Formação, Novos Projetos</h1>
-                    <p>Um jovem novo na área, com objetivos interessantes e desafiadores para esse ser humano.Com um longo caminho pela frente, nesse mundo da programação tentarei me aventurar por várias áreas desde desenvolvimento até a área de pesquisa.</p>
+        <header class="siteHeader">
+            <a href="#" class="siteHeaderPerfil imgLink"><img src="img/ftPerfil.jpg" ></a>
+            <h1 class="siteHeaderInfo"><strong>José Ulisses</strong> <br>Um jovem desenvolvedor de software</h1>
+        </header>
+        <main class="siteMain">
+            <section class="siteMainConteudo">
+                <h2>Nova Formação, Novos Projetos</h2>
+                <p>Um jovem novo na área, com objetivos interessantes e desafiadores para esse ser humano.Com um longo caminho pela frente, nesse mundo da programação tentarei me aventurar por várias áreas desde desenvolvimento até a área de pesquisa.</p>
+            </section>
+            <section class="siteMainConteudo">
+                <h2>Projetos</h2>
+                <div class="row">
+                    <div class="col2">
+                        <article>
+                            <a href=""><img src="img/rep/rep1.jpg" alt="Respositório do GitHub"></a>
+                            <p></p>
+                        </article>
+                        <article>
+                            <a href=""><img src="img/rep/rep2.jpg" alt="Respositório do GitHub"></a>
+                            <p></p>
+                        </article>
+                    </div>
+                    <div class="col2">
+                        <article>
+                            <a href=""><img src="img/rep/rep3.jpg" alt="Respositório do GitHub"></a>
+                            <p></p>
+                        </article>
+                        <article>
+                            <a href=""><img src="img/rep/rep4.jpg" alt="Respositório do GitHub"></a>
+                            <p></p>
+                        </article>
+                    </div>
                 </div>
-            </article>
-            <section class="galeria">
-                <article class="galeriaCard">
-                    <a href="https://github.com/jos3s/Linguagens"><img src="img/rep1.jpg"></a>
-                </article>
-                <article class="galeriaCard">
-                    <a href="https://github.com/jos3s/Labirinto"><img src="img/rep2.jpg"></a>
-                </article>
             </section>
-            <section class="galeria">
-                <article class="galeriaCard">
-                    <a href="https://github.com/jos3s/Web"><img src="img/rep3.jpg"></a>
-                </article>
-                <article class="galeriaCard">
-                    <a href="https://github.com/jos3s/RPG"><img src="img/rep4.jpg"></a>
-                </article>
+            <section class="siteMainConteudo">
+                    <h3>DESENVOLVEDOR JÚNIOR (JÚNIOR)</h3>
+                    <p>Um jovem universitário de apenas 19 anos, com muitos objetivos como desenvolver o seu primeiro aplicativo para Android, conseguir fazer interfaces gráficas para os seus programas em C e em Java e ter um conhecimento intermediario em Python.</p>
             </section>
-            <article class="sobre">
-                <h2>José Ulisses</h2>
-                <h3>Desenvolvedor Júnior (Júnior)</h3>
-                <p>Um jovem universitário de apenas 19 anos, com muitos objetivos como desenvolver o seu primeiro aplicativo para Android, conseguir fazer interfaces gráficas para os seus programas em C e em Java e ter um conhecimento intermediario em Python.</p>
-            </article>
-            <div id="formacao">
+            <section class="siteMainConteudo">
                 <h2>Educação</h2>
-                <p class="curso">Graduando em Engenharia de Software <br>Universidade Federal do Ceará</p>
-                <p class="curso-data">Inicio da graduação em 2019</p>
-
-                <p class="curso">Curso de Java<br>Udemy</p>
-                <p class="curso-data">Iniciado em 2020</p>
-                <p class="curso-info">Iniciando o curso de java completo do <br> Professor Nélio Alves </p>
-
-                <p class="curso">Curso de desenvolvimento web<br>Udemy</p>
-                <p class="curso-data">Iniciado em 2020</p>
-                <p class="curso-info">Curso com foco em HTML,CSS e o básico <br> de Javascript para o desenvolvimento web</p>
-            </div> 
-            <section class="atv">
-                <article id="atv-header">
-                    <h3>Extensões e Projetos</h3>
-                </article>
-                
-                <article class="atv-card">
-                    <h3 class="atv-titulo">Estrutura de Dados</h3>
-                    <p class="atv-xtr">Monitor</p>
-                    <p class="atv-txt">Ajudar os alunos da cadeira, participar da organização da maratona e da manutenção do Ledinho chatbot da cadeira.</p>
-                </article>
-
-                <article class="atv-card" id="atv-card2">
-                    <h3 class="atv-titulo">Nemo</h3>
-                    <p class="atv-xtr">Pesquisador</p>
-                    <p class="atv-txt">Objetivo futuro. <br>a<br>;</p>
+                <article class="siteMainEdu">
+                    <h3>Graduando em Engenharia de Software </h3>
+                    <a href="http://www.ufc.br/" target="_blank" class="siteMainEdu-link"><h4>Universidade Federal do Ceará</h4></a>
+                    <p>Inicio da graduação em 2019</p>
                 </article>
             </section>
-            <footer>
-                <p>
-                    <a href="https://github.com/jos3s">GitHub</a> &bull; 
-                    <a href="https://www.linkedin.com/in/jos3s/">LinkedIn</a>
-                </p>
-            </footer>
-        </div>
+            <section class="siteMainConteudo">
+                <h2>Extensões e Projetos</h2>
+                <div class="row">
+                    <div class="col2 siteMainDestaque">
+                        <h3>Monitoria</h3>
+                        <p class="siteMainDestaque"><stroke>2020</stroke><br>Monitor da cadeira de Estrutura de Dados</p>
+                    </div>
+                    <div class="col2 siteMainDestaque">
+                        <h3>NEMO</h3>
+                        <p class="siteMainDestaque"><stroke>2020</stroke><br>Monitor da cadeira de Estrutura de Dados</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="siteFooter">
+            <ul class="ul-icons">
+                <li><a href="https://github.com/jos3s" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jos3s/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <ul>
+                <li class="siteFooterProp">&copy; Untitled | Design: <a href="http://html5up.net"> HTML5 UP</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
