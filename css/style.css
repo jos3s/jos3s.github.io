@@ -196,6 +196,39 @@ li{padding-left: .5em;}
 .siteFooter a:hover{color:white;}
 .siteFooterProp{font-size: .7em;}
 
+
+/* !404 */
+.p404{
+    text-align: center;
+    width: 100%; 
+    height: auto;
+    box-sizing: border-box;
+}
+.p404Text{
+    margin: 1%;
+    color: #666;
+    height: 100%;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.p404Text h2{
+    margin:0;
+    font-size: 170px;
+    color: #003d52;
+}
+.p404Link{
+    color: #003d52;
+    border-bottom-style:solid ;
+}
+.p404Link:hover{
+    color: #003d52;
+}
+
+#p404Min{
+    font-size: 15px;
+}
+
 /* !grid */
 .row{overflow: auto;}
 .col2{
