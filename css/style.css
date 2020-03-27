@@ -9,9 +9,7 @@ a{
     border-bottom: 1px dotted;
     color: #49bf9d;
 }
-a:hover{
-    border-bottom-color: transparent;
-}
+a:hover{border-bottom-color: transparent;}
 p{
     padding-left: 5px;
     margin: 0 0 .3em;
@@ -63,9 +61,7 @@ h6{font-size: 14px;}
     border-radius: 50%;
     overflow: hidden;
 }
-.imgLink{
-    border: 0;
-}
+.imgLink{border: 0;}
 
 /* !listas */
 ul, ol{
@@ -73,9 +69,7 @@ ul, ol{
     padding: 0;
     padding-left: 1.1em;
 }
-li{
-    padding-left: .5em;
-}
+li{padding-left: .5em;}
 .ul-icons li{
     display: inline-block;
     font-size: 2em;
@@ -105,9 +99,7 @@ li{
 }
 
 /* !main */
-.hidden{
-    display:none;
-}
+.hidden{display:none;}
 .siteMain{
     width: 65%;
     margin-left: 35%;
@@ -157,7 +149,7 @@ li{
     color: white;
     border-radius: .35em;
     padding: 0.55em 0.95em;
-    margin-bottom: 1em;
+    margin-bottom: 0;
 }
 .expEmpresa{
     color: white;
@@ -199,31 +191,19 @@ li{
     list-style: none;
     font-size: 1em;
 }
-.siteFooter li, a{
-    color: rgba(255, 255,255, .5);
-}
-.siteFooter a{
-    border-bottom-color: transparent;
-}
-.siteFooter a:hover{
-    color:white;
-}
-.siteFooterProp{
-    font-size: .7em;
-}
+.siteFooter li, a{color: rgba(255, 255,255, .5);}
+.siteFooter a{border-bottom-color: transparent;}
+.siteFooter a:hover{color:white;}
+.siteFooterProp{font-size: .7em;}
 
 /* !grid */
-.row{
-    overflow: auto;
-}
+.row{overflow: auto;}
 .col2{
     width: 49%;
     float: left;
     margin-bottom: 1%;
 }
-.col2:first-child{
-    margin-right: 2%;
-}
+.col2:first-child{margin-right: 2%;}
 .col1-3{
     width: 30%;
     float: left;
@@ -233,7 +213,7 @@ li{
     display: inline-block;
     width: 66%;
 }
-.col4{
+.col5{
     width:18%;
     margin-left: 1%;
 }
