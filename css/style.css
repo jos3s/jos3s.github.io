@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: #666;
-    line-height: 2;;
+    line-height: 2;
 }
 a{
     transition: color .2s linear, border .2s linear; 
@@ -23,41 +23,40 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
     margin: 1em 0; 
 }
-h1{font-size: 36px;}
-h2{font-size: 30px;}
-h3{font-size: 26px;}
-h4{font-size: 22px;}
-h5{font-size: 18px;}
-h6{font-size: 14px;}
+h1{font-size: 2,25em;}
+h2{font-size: 1,875em;}
+h3{font-size: 1,625em;}
+h4{font-size: 1,375em;}
+h5{font-size: 1,25em;}
+h6{font-size: 0.875em;}
 
 /* !Header */
 .siteHeader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 35%;
     background-color:#003d52;
     background-image: url(../img/bg_detalhe.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 124px 54px 72px;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
 }
 .siteHeaderInfo{
     color: white;
-    font-size: 22px;
+    font-size: 1,375em;
     line-height: 1.5;
     font-weight: normal;
     color:  rgba(255, 255,255, .5);
+    margin: auto;
+    padding: 1em;
 }
 .siteHeaderInfo strong{
     color: white;
     font-weight: normal;
 }
 .siteHeaderPerfil img{
-    height: 130px;
+    display: none;
+    padding: 2em;
+    height: 4em;
+    float: left;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -101,9 +100,10 @@ li{padding-left: .5em;}
 /* !main */
 .hidden{display:none;}
 .siteMain{
-    width: 65%;
-    margin-left: 35%;
-    padding: 100px 54px 72px;
+    clear: both;
+    width: 90%;
+    margin: 1em auto 2em;
+    padding: 3em 3em 2em;
     box-sizing: border-box;
 }
 
@@ -171,6 +171,10 @@ li{padding-left: .5em;}
     display: inline-block;
     text-align: center;
     box-sizing: border-box;
+    padding: 0;
+}
+.siteMainHabilidade p{
+    padding: 0;
 }
 .logoLinguagem{
     font-size: 50px;
@@ -179,19 +183,17 @@ li{padding-left: .5em;}
 
 /* !Footer */
 .siteFooter{
-    position: fixed;
-    bottom:0;
-    width: 35%;
-    left: 0;
-    padding: 0 54px 72px 0;
+    background: #003d52;
+    padding-top:.5em; padding-bottom: .5em;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
 }
 .siteFooter ul{
+    margin: 0; padding: auto;
     list-style: none;
     font-size: 1em;
 }
-.siteFooter li, a{color: rgba(255, 255,255, .5);}
+.siteFooter li, a{color: rgba(255, 255,255, .5); padding-left: 0; padding-right: 10px;}
 .siteFooter a{border-bottom-color: transparent;}
 .siteFooter a:hover{color:white;}
 .siteFooterProp{font-size: .7em;}
@@ -230,9 +232,9 @@ li{padding-left: .5em;}
 }
 
 /* !grid */
-.row{overflow: auto;}
+.row{overflow: auto;  overflow: hidden;}
 .col2{
-    width: 49%;
+    width: 100%;
     float: left;
     margin-bottom: 1%;
 }
@@ -247,6 +249,98 @@ li{padding-left: .5em;}
     width: 66%;
 }
 .col5{
-    width:18%;
+    width:47%;
+   
+}
+
+.col5:nth-child(1){
+    width:100%;
     margin-left: 1%;
+}
+
+@media screen and (min-width: 32.5em){
+    
+    .siteHeader{
+        margin: auto;
+        text-align: center;
+    }
+    .col2{
+        width: 49%;
+    }
+    .col5{
+        width: 32%;
+        
+    }
+    .col5:nth-child(1),.col5:nth-child(4){
+        width: 32%;
+        
+    }
+}
+@media screen and (min-width: 68.5em){
+    .siteHeader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 35%;
+        padding: 124px 54px 72px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    .siteHeaderInfo{
+        clear: both;
+        color: white;
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: normal;
+        color:  rgba(255, 255,255, .5);
+        padding-left: 0; padding-right: 0;
+    }
+    .siteHeaderInfo strong{
+        color: white;
+        font-weight: normal;
+    }
+    .siteHeaderPerfil img{
+        display: block;
+        float: right;
+        height: 130px;
+        border-radius: 50%;
+        padding: 0;
+        overflow: hidden;
+    }
+    .imgLink{border: 0;}
+    
+    .siteMain{
+        width: 65%;
+        margin-left: 35%;
+        padding: 100px 54px 72px;
+        box-sizing: border-box;
+    }
+    .siteFooter{
+        position: fixed;
+        bottom:0;
+        width: 35%;
+        left: 0;
+        padding: 0 54px 72px 0;
+        box-sizing: border-box;
+        text-align: right;
+        background: transparent;
+    }
+    .siteFooter ul{
+        list-style: none;
+        font-size: 1em;
+    }
+    .siteFooter li{
+        padding-left: 16px; padding-right: 0;
+    }
+    .siteFooter a {
+        margin: 0; padding:0;
+    }
+    .col5{
+        width: 18%;
+        margin-left: 1%;
+    }
+    .col5:nth-child(1),.col5:nth-child(4){
+        width: 18%;
+    }
 }
