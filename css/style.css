@@ -308,8 +308,6 @@ li{padding-left: .5em;}
         text-align: right;
         
     }
-}
-@media screen and (min-width: 56.3125em){
     .col5{
         width: 18%;
         margin-left: 1%;
@@ -318,7 +316,6 @@ li{padding-left: .5em;}
         width: 18%;
     }
 }
-
 @media screen and (min-width: 68.5em){
     .siteHeader{
         position: fixed;
