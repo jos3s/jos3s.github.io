@@ -114,6 +114,7 @@ li{padding-left: .5em;}
     color: white;
     box-sizing: border-box;
     padding: 7px;
+    margin: 1%;
 }
 .siteMainDestaque h3{
     text-transform: uppercase;
@@ -256,6 +257,20 @@ li{padding-left: .5em;}
     margin-left: 1%;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+.cardFlex{
+    order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+}
+
 @media screen and (min-width: 32.5em){
     
     .siteHeader{
@@ -288,6 +303,11 @@ li{padding-left: .5em;}
     .expEmpresaAno{
         text-align: left;
         
+    }
+    .cardFlex{
+        order: 0;
+        flex: 1 1 25%;
+        align-self: stretch;
     }
 }
 @media screen and (min-width: 41.875em){
