@@ -126,7 +126,7 @@ li{padding-left: .5em;}
     border-radius: .35em;
     border: 2px solid #efefef;
     padding: 0.25em 0.65em;
-    color: #929292;
+    color: #575757;
     text-align: center;
 }
 .siteMainEdu p{
@@ -135,6 +135,7 @@ li{padding-left: .5em;}
 .siteMainEdu h3{
     margin-top: .5em;
     margin-bottom: 0;
+    color: #646464;
 }
 .siteMainEdu h4{
     color: #003d52;
